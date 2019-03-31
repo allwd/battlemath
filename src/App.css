@@ -1,0 +1,58 @@
+ body {
+   background: #61dafb;
+ }
+
+.App {
+  text-align: center;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cube {
+  width: 75px;
+  height: 75px;
+  margin: 20px;
+}
+
+.enemies {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.player {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.enemies .cube {
+  background: red;
+}
+
+.player .cube {
+  background: green;
+}
+
+.body {
+  height: 700px;
+}
